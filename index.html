@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iEducation-Transforming online eduction</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <script defer src="js/resp.js"></script>
+</head>
+
+<body>
+    <nav class="navbar background-navbar h-nav-resp">
+        <ul class="nav-list v-nav-resp">
+            <div class="logo">
+                <a><img onclick="window.location.href='index.html'" src="Images/logo.jpg" alt="Logo"></a>
+            </div>
+            <li><a class="list-items" href="#home">Home</a></li>
+            <li><a class="list-items-1" href="#services">Services</a></li>
+            <li><a class="list-items-2" href="#contact">Contact</a></li>
+            <li><a class="list-items-3" href="#about">About</a></li>
+        </ul>
+        <div class="rightNav v-nav-resp">
+            <input id="search" type="text" name="search" id="search" placeholder="Search here">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection " id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The future of education is here.</p>
+                <p class="text-small">In this world of 7 billion people we need to educate all of them.The world will
+                    become a better place to live if each and every person will have access to education.This is the
+                    future of educated world.We are proud to say that the future of education is here.</p>
+                <div class="buttons">
+                    <button class="btn">Suscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="Images/logo1.jpg" alt="Photo loading...">
+            </div>
+        </div>
+    </section>
+    <div class="headings-section background-navbar" id="services">
+        <h1 class=" text-center text-big bold">Our Services</h1>
+    </div>
+    <section class="section">
+        <div class="parag" id="first">
+            <p class="secTag text-big">The End of your search is here</p>
+            <p class="secSubTag text-small">Due to accelerated climate change the fragility of Earth is becoming
+                more apparent. Inequalities, social fragmentation, and political extremism are bringing many
+                societies to a point of crisis. Advances in Digital Communication, artificial intelligence, and
+                biotechnology have potential but raise ethical and governance concerns, especially as innovation and
+                technological change have an uneven record of contributing to human development.The Futures of
+                Education aims to re-imagine how knowledge and learning can shape the future of humanity and the
+                planet, given the challenges which they are currently facing.Education plays a role in the
+                socialising process to build equitable and sustainable societies. School curricula that include
+                philosophy, human rights, visual learning, socio-emotional competencies, media literacy and the
+                humanities are said to be key to inclusivity and social justice.</p>
+        </div>
+        <div class="thumbnail"><img class="imgFluid"
+                src="https://source.unsplash.com/900x900/?education,phycology,coding,laptop" alt="Laptop image">
+        </div>
+    </section>
+    <section class="section leftSec">
+        <!-- <div class="secondSection"> -->
+        <div class="parag">
+            <p class="secTag text-big">Science, technology and innovation</p>
+            <p class="secSubTag text-small">With artificial intelligence, technology is increasingly involved in
+                education. New digital competencies and media literacies call for a gender transformative approach
+                (promoting gender equality, sharing control of resources and decision-making, and women's empowerment in
+                digitization and use of artificial intelligence (AI).Unlocking digital barriers through open educational
+                resources enables global online learning and facilitate Education For All.Media and communication
+                students would require ethics courses to establish their critical thinking skills and training. This is
+                seen as being crucial in a ‘fake news’ era when trust in media professionals is being eroded, especially
+                when news and documentary production is impacted by the capacity of artificial intelligence to
+                manufacture authentic-looking ‘fake’ material.</p>
+        </div>
+        <div class="thumbnail"><img class="imgFluid"
+                src="https://source.unsplash.com/900x900/?technology,science,innovation,education,html,javascript"
+                alt="Laptop image">
+            <!-- </div> -->
+        </div>
+    </section>
+    <section class="section" class="third-service">
+        <div class="parag">
+            <p class="secTag text-big">Culture and the environment</p>
+            <p class="secSubTag text-small">The stability of the planet could be assisted through the mobilization
+                of education, and the diversification of knowledge, customs and culture.Research suggests that
+                embedding a deep attachment to landscapes and tangible heritage instils a sense of care for the
+                world, and that the study, preservation and appreciation of diverse languages, knowledge and customs
+                enrich human collective consciousness through an understanding of the relations between past,
+                present and future societies.Education plays a role by including sustainability studies as a means
+                of promoting planetary survival. Earth science and environment studies enable learners and
+                communities to become more cognizant of the world they inhabit and leave behind them.A ‘community of
+                knowledge’ is one in which the responsibility of being a ‘knowledge keeper’ is for everyone.This
+                paradigm shifts the focus from the perspective of ‘stakeholder’ and changes the way of contributing
+                to knowledge, aiming to achieve sustainable development. </p>
+        </div>
+        <div class="thumbnail"><img class="imgFluid"
+                src="https://source.unsplash.com/900x900/?study,coding,programming,computer" alt="Laptop image">
+        </div>
+    </section>
+    <div class="headings-section background-navbar " id="services">
+        <h1 class=" text-center text-big bold">Contact Us</h1>
+    </div>
+    <section class="contact" id="contact">
+        <form class="contact-form" action="/contact" , method="POST">
+            <label>Name:<input class="form-input" type="text" name="name" id="name"
+                    placeholder="Enter your name"></label>
+            <label>Number:<input class="form-input" type="text" name="phone" id="phone"
+                    placeholder="Enter your mobile number"></label>
+            <label>Email:<input class="form-input" type="email" name="email" id="email"
+                    placeholder="Enter your email"></label>
+            <!-- <input class="form-input" type="date" name="birthdate" id="birthdate" placeholder="Enter your birth date"> -->
+            <label>Concerns:<textarea name="text" id="text" cols="30" rows="8" class="form-input"
+                    placeholder="Ellaborate your concern"></textarea></label>
+            <button class="btn form-btn" type="submit">Submit</button>
+        </form>
+    </section>
+    <footer class="background" id="about">
+        Copyright &copy;2022 www.iEducation.com - All right reserved
+    </footer>
+</body>
+
+</html>
